@@ -31,34 +31,34 @@ public final class MenuPrincipal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        jButton2 = new javax.swing.JButton();
-        jLabel3 = new javax.swing.JLabel();
-        jButton7 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jButton9 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jButton4 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jTextField1 = new javax.swing.JTextField();
-        jButton10 = new javax.swing.JButton();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
+        jPanel4 = new javax.swing.JPanel();
+        jButton18 = new javax.swing.JButton();
+        jPanel7 = new javax.swing.JPanel();
+        jPanel6 = new javax.swing.JPanel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jPanel5 = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
         jLabel1 = new javax.swing.JLabel();
-        jTextField3 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setExtendedState(MAXIMIZED_BOTH);
         setLocation(new java.awt.Point(150, 100));
-        setUndecorated(true);
         setResizable(false);
         addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
@@ -82,247 +82,323 @@ public final class MenuPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel3.setBackground(new java.awt.Color(214, 217, 223));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
 
-        jButton2.setBackground(new java.awt.Color(0, 0, 0,0));
-        jButton2.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
-        jButton2.setText("Produto");
-        jButton2.addMouseListener(new java.awt.event.MouseAdapter() {
+        jPanel2.setBackground(new java.awt.Color(214, 217, 223));
+        jPanel2.setLayout(new java.awt.GridLayout(1, 0));
+
+        jButton11.setBackground(new java.awt.Color(7, 84, 94));
+        jButton11.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14)); // NOI18N
+        jButton11.setForeground(new java.awt.Color(0, 205, 251));
+        jButton11.setText("HOME");
+        jButton11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jButton2MouseEntered(evt);
+                jButton11MouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jButton2MouseExited(evt);
+                jButton11MouseExited(evt);
             }
         });
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                jButton11ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 30, 130, 30));
+        jPanel2.add(jButton11);
 
-        jLabel3.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
-        jLabel3.setText("School Data Management");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 370, 330, 40));
-
-        jButton7.setBackground(new java.awt.Color(0,0,0,0));
-        jButton7.setFont(new java.awt.Font("Yu Gothic Medium", 1, 36)); // NOI18N
-        jButton7.setText("-");
-        jButton7.addMouseListener(new java.awt.event.MouseAdapter() {
+        jButton12.setBackground(new java.awt.Color(51, 51, 51));
+        jButton12.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14)); // NOI18N
+        jButton12.setForeground(new java.awt.Color(255, 255, 255));
+        jButton12.setText("Cliente");
+        jButton12.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jButton7MouseEntered(evt);
+                jButton12MouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jButton7MouseExited(evt);
+                jButton12MouseExited(evt);
             }
         });
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                jButton12ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(1490, 11, -1, 70));
+        jPanel2.add(jButton12);
 
-        jButton6.setBackground(new java.awt.Color(0, 0, 0,0));
-        jButton6.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
-        jButton6.setText("Relatório");
-        jButton6.addMouseListener(new java.awt.event.MouseAdapter() {
+        jButton13.setBackground(new java.awt.Color(51, 51, 51));
+        jButton13.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14)); // NOI18N
+        jButton13.setForeground(new java.awt.Color(255, 255, 255));
+        jButton13.setText("Produto");
+        jButton13.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jButton6MouseEntered(evt);
+                jButton13MouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jButton6MouseExited(evt);
+                jButton13MouseExited(evt);
             }
         });
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                jButton13ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 30, 140, 30));
+        jPanel2.add(jButton13);
 
-        jButton5.setBackground(new java.awt.Color(0, 0, 0,0));
-        jButton5.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
-        jButton5.setText("Turma");
-        jButton5.addMouseListener(new java.awt.event.MouseAdapter() {
+        jButton14.setBackground(new java.awt.Color(51, 51, 51));
+        jButton14.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14)); // NOI18N
+        jButton14.setForeground(new java.awt.Color(255, 255, 255));
+        jButton14.setText("Equipamento");
+        jButton14.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jButton5MouseEntered(evt);
+                jButton14MouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jButton5MouseExited(evt);
+                jButton14MouseExited(evt);
             }
         });
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                jButton14ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 30, 120, 30));
+        jPanel2.add(jButton14);
 
-        jLabel4.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
-        jLabel4.setText("do mercado");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 500, -1, -1));
-
-        jLabel2.setFont(new java.awt.Font("Yu Gothic Medium", 1, 48)); // NOI18N
-        jLabel2.setText("SDM");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 280, 120, 60));
-
-        jButton9.setBackground(new java.awt.Color(255, 255, 255));
-        jButton9.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
-        jButton9.setText("Home");
-        jButton9.setBorder(null);
-        jButton9.addMouseListener(new java.awt.event.MouseAdapter() {
+        jButton15.setBackground(new java.awt.Color(51, 51, 51));
+        jButton15.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14)); // NOI18N
+        jButton15.setForeground(new java.awt.Color(255, 255, 255));
+        jButton15.setText("Turma");
+        jButton15.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jButton9MouseEntered(evt);
+                jButton15MouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jButton9MouseExited(evt);
+                jButton15MouseExited(evt);
             }
         });
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
+                jButton15ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 30, 90, 30));
-        jButton9.setBackground(new java.awt.Color(0, 0, 0,0));
+        jPanel2.add(jButton15);
 
-        jButton1.setBackground(new java.awt.Color(0, 0, 0,0));
-        jButton1.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
-        jButton1.setText("Cliente");
-        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+        jButton16.setBackground(new java.awt.Color(51, 51, 51));
+        jButton16.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14)); // NOI18N
+        jButton16.setForeground(new java.awt.Color(255, 255, 255));
+        jButton16.setText("Venda");
+        jButton16.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jButton1MouseEntered(evt);
+                jButton16MouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jButton1MouseExited(evt);
+                jButton16MouseExited(evt);
             }
         });
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                jButton16ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 30, 130, 30));
+        jPanel2.add(jButton16);
 
-        jLabel6.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
-        jLabel6.setText("Escolares com as melhores Ferramentas ");
-        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 460, -1, -1));
-
-        jLabel5.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
-        jLabel5.setText("Plataforma de Gerenciamento dos Dados ");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 420, 390, -1));
-
-        jButton4.setBackground(new java.awt.Color(0, 0, 0,0));
-        jButton4.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
-        jButton4.setText("Venda");
-        jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
+        jButton17.setBackground(new java.awt.Color(51, 51, 51));
+        jButton17.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14)); // NOI18N
+        jButton17.setForeground(new java.awt.Color(255, 255, 255));
+        jButton17.setText("Relatório");
+        jButton17.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jButton4MouseEntered(evt);
+                jButton17MouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jButton4MouseExited(evt);
+                jButton17MouseExited(evt);
             }
         });
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                jButton17ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 30, 120, 30));
+        jPanel2.add(jButton17);
 
-        jButton8.setBackground(new java.awt.Color(0,0,0,0));
-        jButton8.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14)); // NOI18N
-        jButton8.setText("X");
-        jButton8.addMouseListener(new java.awt.event.MouseAdapter() {
+        jPanel4.setBackground(new java.awt.Color(214, 217, 223));
+        jPanel4.setLayout(new java.awt.GridLayout(1, 0));
+
+        jButton18.setBackground(new java.awt.Color(0, 0, 0, 0));
+        jButton18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Designer/desligar.png"))); // NOI18N
+        jButton18.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jButton8MouseEntered(evt);
+                jButton18MouseEntered(evt);
             }
             public void mouseExited(java.awt.event.MouseEvent evt) {
-                jButton8MouseExited(evt);
+                jButton18MouseExited(evt);
             }
         });
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
+                jButton18ActionPerformed(evt);
             }
         });
-        jPanel1.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1530, 11, 50, 70));
+        jPanel4.add(jButton18);
 
-        jButton3.setBackground(new java.awt.Color(0, 0, 0, 0));
-        jButton3.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
-        jButton3.setText("Equipamento");
-        jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jButton3MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jButton3MouseExited(evt);
-            }
-        });
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 30, 210, 30));
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 1088, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(218, Short.MAX_VALUE))
+            .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                    .addContainerGap(1179, Short.MAX_VALUE)
+                    .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(70, 70, 70)))
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, 66, Short.MAX_VALUE)
+                .addContainerGap())
+            .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                    .addContainerGap()
+                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 77, Short.MAX_VALUE)))
+        );
 
-        jTextField1.setEditable(false);
-        jTextField1.setBackground(new java.awt.Color(0, 0, 0));
-        jTextField1.setBorder(null);
-        jTextField1.setDisabledTextColor(new java.awt.Color(0, 0, 255));
-        jTextField1.setSelectedTextColor(new java.awt.Color(0, 0, 255));
-        jTextField1.setSelectionColor(new java.awt.Color(0, 0, 153));
-        jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1610, 10));
+        jPanel7.setBackground(new java.awt.Color(51, 51, 51));
 
-        jButton10.setBackground(new java.awt.Color(0, 0, 0, 0));
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Designer/perfil-Preto.png"))); // NOI18N
-        jButton10.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jButton10MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jButton10MouseExited(evt);
-            }
-        });
-        jPanel1.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(1420, 11, 70, 70));
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 23, Short.MAX_VALUE)
+        );
 
-        jLabel13.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14)); // NOI18N
-        jLabel13.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel13.setText("Desevolvedores : Pedro Neto e Ruan Rita  ");
-        jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 860, -1, 40));
+        jPanel6.setBackground(new java.awt.Color(51, 51, 51));
 
-        jLabel16.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel16.setText("© All rights reserved 2019");
-        jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1390, 860, 200, 40));
+        jLabel17.setFont(new java.awt.Font("Arial", 1, 10)); // NOI18N
+        jLabel17.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel17.setText("© All rights reserved 2019");
 
-        jLabel12.setBackground(new java.awt.Color(51, 204, 0));
-        jLabel12.setForeground(new java.awt.Color(102, 255, 102));
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Designer/preto rodape.png"))); // NOI18N
-        jPanel1.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 850, 1610, 60));
+        jLabel14.setFont(new java.awt.Font("Arial", 1, 10)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel14.setText("Desevolvedores : Pedro Neto e Ruan Rita  ");
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Designer/Vendas por marca agosto 2010 cat automóveis.JPG"))); // NOI18N
-        jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 190, 650, 500));
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGap(27, 27, 27)
+                .addComponent(jLabel14)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 932, Short.MAX_VALUE)
+                .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(jLabel14, javax.swing.GroupLayout.DEFAULT_SIZE, 31, Short.MAX_VALUE)
+                .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
 
-        jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 330, 1610, 520));
+        jLabel8.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel8.setText("School Data Management");
 
-        jTextField3.setEditable(false);
-        jTextField3.setBackground(new java.awt.Color(204, 255, 255));
-        jTextField3.setBorder(null);
-        jPanel1.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1610, 90));
+        jLabel9.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel9.setText("do mercado");
+
+        jLabel11.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
+        jLabel11.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel11.setText("Plataforma de Gerenciamento dos Dados ");
+
+        jLabel15.setFont(new java.awt.Font("Yu Gothic Medium", 1, 48)); // NOI18N
+        jLabel15.setText("SDM");
+
+        jLabel18.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel18.setText("Escolares com as melhores Ferramentas ");
+
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane1.setViewportView(jTextArea1);
+
+        jLabel1.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(51, 51, 51));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setText("Notificação");
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addGap(55, 55, 55)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel9)
+                    .addComponent(jLabel11)
+                    .addComponent(jLabel18)
+                    .addComponent(jLabel15)
+                    .addComponent(jLabel8))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 584, Short.MAX_VALUE)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(69, 69, 69))
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addGap(82, 82, 82)
+                .addComponent(jLabel15)
+                .addGap(24, 24, 24)
+                .addComponent(jLabel8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel11)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel18)
+                .addGap(18, 18, 18)
+                .addComponent(jLabel9)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                .addContainerGap(57, Short.MAX_VALUE)
+                .addComponent(jLabel1)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 327, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(94, 94, 94))
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
+                .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
@@ -331,56 +407,6 @@ public final class MenuPrincipal extends javax.swing.JFrame {
 
     
  
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        ClienteMenu CM = new ClienteMenu();
-        CM.setVisible(true);
-        this.setVisible(false);
-        
-        
-    }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-       
-        Equipamento EP = new Equipamento();
-        EP.setVisible(true);  
-        this.setVisible(false);
-        
-    }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        // TODO add your handling code here:
-        Turma t = new Turma();
-        t.setVisible(true);
-        this.setVisible(false);
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        // TODO add your handling code here:
-        
-        RealizarVenda rv = new RealizarVenda();
-        rv.setVisible(true);
-        this.setVisible(false);
-        
-    }//GEN-LAST:event_jButton4ActionPerformed
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-        ProdutoMenu PM = new ProdutoMenu();
-        PM.setVisible(true);
-        this.setVisible(false);
-        
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        // TODO add your handling code here:
-        this.setState ( Frame.ICONIFIED );      
-    }//GEN-LAST:event_jButton7ActionPerformed
-
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        // TODO add your handling code here:
-        System.exit(0);
-    }//GEN-LAST:event_jButton8ActionPerformed
-
     private void formMouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseDragged
         // TODO add your handling code here:
         
@@ -392,150 +418,166 @@ public final class MenuPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_formMouseMoved
 
     private void formMousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMousePressed
-        // TODO add your handling code here:
+    
         
     }//GEN-LAST:event_formMousePressed
 
     private void formMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_formMouseReleased
-        jButton9.setForeground(new java.awt.Color(0, 0, 0));
-        
+      
     }//GEN-LAST:event_formMouseReleased
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
-        Relatorio R = new Relatorio();
-        R.setVisible(true);
-        this.setVisible(false);
-    }//GEN-LAST:event_jButton6ActionPerformed
-
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        // TODO add your handling code here:
-        MenuPrincipal MP = new MenuPrincipal();
-        MP.setVisible(true);
-        this.setVisible(false);
-    }//GEN-LAST:event_jButton9ActionPerformed
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
 
     }//GEN-LAST:event_formWindowOpened
-
-    private void jButton9MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton9MouseEntered
-        // TODO add your handling code here:
-        jButton9.setForeground(new java.awt.Color(246, 7, 7));
-        jButton9.setFont(new java.awt.Font("Yu Gothic Medium", 1, 24));
-    }//GEN-LAST:event_jButton9MouseEntered
-
-    private void jButton9MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton9MouseExited
-        // TODO add your handling code here:
-        jButton9.setForeground(new java.awt.Color(0, 0, 7));    
-        jButton9.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18));
-    }//GEN-LAST:event_jButton9MouseExited
-
-    private void jButton6MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseEntered
-        // TODO add your handling code here:
-        jButton6.setForeground(new java.awt.Color(246, 7, 7));
-        jButton6.setFont(new java.awt.Font("Yu Gothic Medium", 1, 24));
-    }//GEN-LAST:event_jButton6MouseEntered
    
-    private void jButton1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseExited
+    private void jButton11MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton11MouseEntered
         // TODO add your handling code here:
-        jButton1.setForeground(new java.awt.Color(0, 0, 7));
-        jButton1.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18));
-    }//GEN-LAST:event_jButton1MouseExited
+        jButton11.setForeground(new java.awt.Color(0, 205, 251));
+        jButton11.setFont(new java.awt.Font("Yu Gothic Medium", 1, 16));
 
-    private void jButton2MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseExited
-        // TODO add your handling code here:
-        jButton2.setForeground(new java.awt.Color(0, 0, 7));
-        jButton2.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18));
-    }//GEN-LAST:event_jButton2MouseExited
+    }//GEN-LAST:event_jButton11MouseEntered
 
-    private void jButton3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseExited
+    private void jButton11MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton11MouseExited
         // TODO add your handling code here:
-        jButton3.setForeground(new java.awt.Color(0, 0, 7));
-        jButton3.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18));
-    }//GEN-LAST:event_jButton3MouseExited
+        jButton11.setForeground(new java.awt.Color(0, 205, 251));
+        jButton11.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14));
+    }//GEN-LAST:event_jButton11MouseExited
 
-    private void jButton4MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseExited
+    private void jButton12MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton12MouseEntered
         // TODO add your handling code here:
-        jButton4.setForeground(new java.awt.Color(0, 0, 7));
-        jButton4.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18));
-    }//GEN-LAST:event_jButton4MouseExited
+        jButton12.setForeground(new java.awt.Color(0, 205, 251));
+        jButton12.setFont(new java.awt.Font("Yu Gothic Medium", 1, 16));
+    }//GEN-LAST:event_jButton12MouseEntered
 
-    private void jButton5MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseExited
-        // TODO add your handling code here:
-        jButton5.setForeground(new java.awt.Color(0, 0, 7));
-        jButton5.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18));
-    }//GEN-LAST:event_jButton5MouseExited
+    private void jButton12MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton12MouseExited
+        // TODO 2add your handling code here:
+        jButton12.setForeground(new java.awt.Color(255, 255, 255));
+        jButton12.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14));
+    }//GEN-LAST:event_jButton12MouseExited
 
-    private void jButton6MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton6MouseExited
-        // TODO add your handling code here:
-        jButton6.setForeground(new java.awt.Color(0, 0, 7));
-        jButton6.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18));
-    }//GEN-LAST:event_jButton6MouseExited
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        this.setVisible(false);
+        Cliente PE = new Cliente();
+        PE.setVisible(true);
+    }//GEN-LAST:event_jButton12ActionPerformed
 
-    private void jButton1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseEntered
+    private void jButton13MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton13MouseEntered
         // TODO add your handling code here:
-        jButton1.setForeground(new java.awt.Color(246, 7, 7));
-        jButton1.setFont(new java.awt.Font("Yu Gothic Medium", 1, 24));
-    }//GEN-LAST:event_jButton1MouseEntered
+        jButton13.setForeground(new java.awt.Color(0, 205, 251));
+        jButton13.setFont(new java.awt.Font("Yu Gothic Medium", 1, 16));
+    }//GEN-LAST:event_jButton13MouseEntered
 
-    private void jButton2MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseEntered
+    private void jButton13MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton13MouseExited
         // TODO add your handling code here:
-        jButton2.setForeground(new java.awt.Color(246, 7, 7));
-        jButton2.setFont(new java.awt.Font("Yu Gothic Medium", 1, 24));
-    }//GEN-LAST:event_jButton2MouseEntered
+        jButton13.setForeground(new java.awt.Color(255, 255, 255));
+        jButton13.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14));
+    }//GEN-LAST:event_jButton13MouseExited
 
-    private void jButton3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton3MouseEntered
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
         // TODO add your handling code here:
-        jButton3.setForeground(new java.awt.Color(246, 7, 7));
-        jButton3.setFont(new java.awt.Font("Yu Gothic Medium", 1, 24));
-    }//GEN-LAST:event_jButton3MouseEntered
+        Produto PM = new Produto();
+        PM.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton13ActionPerformed
 
-    private void jButton4MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseEntered
+    private void jButton14MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton14MouseEntered
         // TODO add your handling code here:
-        jButton4.setForeground(new java.awt.Color(246, 7, 7));
-        jButton4.setFont(new java.awt.Font("Yu Gothic Medium", 1, 24));
-    }//GEN-LAST:event_jButton4MouseEntered
+        jButton14.setForeground(new java.awt.Color(0, 205, 251));
+        jButton14.setFont(new java.awt.Font("Yu Gothic Medium", 1, 16));
+    }//GEN-LAST:event_jButton14MouseEntered
 
-    private void jButton5MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton5MouseEntered
+    private void jButton14MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton14MouseExited
         // TODO add your handling code here:
-        jButton5.setForeground(new java.awt.Color(246, 7, 7));
-        jButton5.setFont(new java.awt.Font("Yu Gothic Medium", 1, 24));
-    }//GEN-LAST:event_jButton5MouseEntered
+        jButton14.setForeground(new java.awt.Color(255, 255, 255));
+        jButton14.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14));
+    }//GEN-LAST:event_jButton14MouseExited
 
-    private void jButton8MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton8MouseEntered
-        // TODO add your handling code here:
-        jButton8.setForeground(new java.awt.Color(246, 7, 7));
-        jButton8.setFont(new java.awt.Font("Yu Gothic Medium", 1, 24));
-    }//GEN-LAST:event_jButton8MouseEntered
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
 
-    private void jButton8MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton8MouseExited
-        // TODO add your handling code here:
-        jButton8.setForeground(new java.awt.Color(0, 0, 7));
-        jButton8.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14));
-    }//GEN-LAST:event_jButton8MouseExited
+        Equipamento EP = new Equipamento();
+        EP.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton14ActionPerformed
 
-    private void jButton7MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton7MouseExited
+    private void jButton15MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton15MouseEntered
         // TODO add your handling code here:
-        jButton7.setForeground(new java.awt.Color(0, 0, 7));
-        jButton7.setFont(new java.awt.Font("Yu Gothic Medium", 1, 36));
-    }//GEN-LAST:event_jButton7MouseExited
+        jButton15.setForeground(new java.awt.Color(0, 205, 251));
+        jButton15.setFont(new java.awt.Font("Yu Gothic Medium", 1, 16));
+    }//GEN-LAST:event_jButton15MouseEntered
 
-    private void jButton7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton7MouseEntered
+    private void jButton15MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton15MouseExited
         // TODO add your handling code here:
-        jButton7.setForeground(new java.awt.Color(246, 7, 7));
-        jButton7.setFont(new java.awt.Font("Yu Gothic Medium", 1, 46));
-    }//GEN-LAST:event_jButton7MouseEntered
+        jButton15.setForeground(new java.awt.Color(255, 255, 255));
+        jButton15.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14));
+    }//GEN-LAST:event_jButton15MouseExited
 
-    private void jButton10MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton10MouseExited
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
         // TODO add your handling code here:
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Designer/perfil-Preto.png")));
-    }//GEN-LAST:event_jButton10MouseExited
+        Turma t = new Turma();
+        t.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton15ActionPerformed
 
-    private void jButton10MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton10MouseEntered
+    private void jButton16MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton16MouseEntered
         // TODO add your handling code here:
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Designer/perfil-hover.png")));
-    }//GEN-LAST:event_jButton10MouseEntered
+        jButton16.setForeground(new java.awt.Color(0, 205, 251));
+        jButton16.setFont(new java.awt.Font("Yu Gothic Medium", 1, 16));
+    }//GEN-LAST:event_jButton16MouseEntered
+
+    private void jButton16MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton16MouseExited
+        // TODO add your handling code here:
+        jButton16.setForeground(new java.awt.Color(255, 255, 255));
+        jButton16.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14));
+    }//GEN-LAST:event_jButton16MouseExited
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+
+        Venda rv = new Venda();
+        rv.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton17MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton17MouseEntered
+        // TODO add your handling code here:
+        jButton17.setForeground(new java.awt.Color(0, 205, 251));
+        jButton17.setFont(new java.awt.Font("Yu Gothic Medium", 1, 16));
+    }//GEN-LAST:event_jButton17MouseEntered
+
+    private void jButton17MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton17MouseExited
+        // TODO add your handling code here:
+        jButton17.setForeground(new java.awt.Color(255, 255, 255));
+        jButton17.setFont(new java.awt.Font("Yu Gothic Medium", 1, 14));
+    }//GEN-LAST:event_jButton17MouseExited
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        Relatorio R = new Relatorio();
+        R.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void jButton18MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton18MouseEntered
+        // TODO add your handling code here:
+        jButton18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Designer/desligar2.png")));
+    }//GEN-LAST:event_jButton18MouseEntered
+
+    private void jButton18MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton18MouseExited
+        // TODO add your handling code here:
+        jButton18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/Designer/desligar.png")));
+    }//GEN-LAST:event_jButton18MouseExited
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        this.setVisible(false);
+        Login l = new Login();
+        l.setVisible(true);
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        // TODO add your handling code here:
+        this.setVisible(false);
+        MenuPrincipal MP = new MenuPrincipal();
+        MP.setVisible(true);
+    }//GEN-LAST:event_jButton11ActionPerformed
 
                                         
 
@@ -547,28 +589,29 @@ public final class MenuPrincipal extends javax.swing.JFrame {
   
   
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField3;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextArea jTextArea1;
     // End of variables declaration//GEN-END:variables
 }
