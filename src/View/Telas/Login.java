@@ -6,8 +6,11 @@
 package View.Telas;
 
 
+import Model.Conexao;
 import java.awt.Component;
 import java.awt.Frame;
+import java.sql.Connection;
+import java.sql.SQLException;
 
 /**
  *
@@ -155,9 +158,21 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        MenuPrincipal MP = new MenuPrincipal();
-        MP.setVisible(true);
-        this.dispose();
+        String login = jTextField1.getText();
+        String senha = jPasswordField1.getText();
+        
+        if((login.compareTo("login")==0) &&(senha.compareTo("senha")==0)){
+            MenuPrincipal MP = new MenuPrincipal();
+            MP.setVisible(true);
+            this.dispose(); 
+        }else if((login.compareTo("professor")==0) &&(senha.compareTo("senha")==0)){
+            MenuPrincipalProfessor MPF = new MenuPrincipalProfessor();
+            MPF.setVisible(true);
+            this.dispose();
+        }
+        
+        
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -240,6 +255,10 @@ public class Login extends javax.swing.JFrame {
                 new Login().setVisible(true);
             }
         });
+        
+        
+        
+        
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
